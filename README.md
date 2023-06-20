@@ -3,6 +3,6 @@
 
 
 **How to Start Project**
-- you can go to this link : ornate-chebakia-438270.netlify.app
+- you can go to this link : https://ornate-chebakia-438270.netlify.app
 
 - or if you want to open the file, you can download it all, then double click the index.html
