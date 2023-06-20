@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SekawanMedia Test</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-logo">
+        <img src="assets/images/logo.svg" alt="dekoor-logo" />
+      </div>
+
+      <div class="navbar-buttons reverse-hidden">
+        <ul class="navbar-menu-list xs-font">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Furniture</a></li>
+          <li><a href="#">Partnerships</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="buttons hidden">
+        <button>Sign up</button>
+        <img src="assets/images/shopping-bag.svg" alt="bag-icon" />
+      </div>
+
+      <img
+        class="reverse-hidden"
+        id="hamburger-button"
+        src="assets/images/hamburger-icon.svg"
+        alt="hamburger-icon"
+      />
+    </div>
+
+    <div class="hero-section">
+      <div class="title">
+        <h1 class="title-text xl-font">
+          The kind of <span id="word-furniture">furniture</span> you have been
+          looking for
+        </h1>
+        <div class="title-buttons s-font">
+          <button id="search-catalog-button">
+            <img src="assets/images/search-icon.svg" alt="" />
+            SEARCH CATALOG
+          </button>
+          <button id="watch-videos-button">
+            <img src="assets/images/watch-icon.svg" alt="" />WATCH VIDEOS
+          </button>
+        </div>
+      </div>
+      <img src="assets/images/furniture1.jpg" alt="image-placeholder" />
+    </div>
+
+    <div class="why-choose-us-section">
+      <div class="why-choose-us-header">
+        <p class="s-font">WHY CHOOSE US?</p>
+        <h2 class="l-font" id="why-description">
+          We care about details and the quality of our products
+        </h2>
+      </div>
+      <div class="reasons">
+        <div class="reason1">
+          <img src="assets/images/reason1.svg" alt="" />
+          <p class="s-font">manufactured with quality materials</p>
+        </div>
+        <div class="reason2">
+          <img src="assets/images/reason2.svg" alt="" />
+          <p class="s-font">5 years of warranty for each product</p>
+        </div>
+        <div class="reason3">
+          <img src="assets/images/reason3.svg" alt="" />
+          <p class="s-font">20 years of expertise</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="partnered-section">
+      <div class="partnered-statistic">
+        <h3>25+</h3>
+        <p class="s-font">partnered brands</p>
+      </div>
+      <div class="partnered-logos">
+        <img src="assets/images/gusto.svg" alt="gusto-logo" />
+        <img src="assets/images/stripe.svg" alt="stripe-logo" />
+        <img src="assets/images/treehouse.svg" alt="treehouse-logo" />
+        <img src="assets/images/upwork.svg" alt="upwork-logo" />
+      </div>
+    </div>
+
+    <div class="furniture-section">
+      <div class="details">
+        <div class="furniture-details">
+          <p>Categories</p>
+          <h4 class="furniture-title xs-font">
+            furniture sets recommendations
+          </h4>
+
+          <div class="details-category">
+            <h3>bedroom</h3>
+            <div class="chosen">
+              <h3>living room</h3>
+              <p>
+                Enjoy a great living room aesthetics with your family Designs
+                created for increased comfortability
+              </p>
+            </div>
+            <h3>home office</h3>
+            <h3>gaming room</h3>
+          </div>
+        </div>
+        <div class="furniture-images">
+          <img src="assets/images/furniture1.jpg" alt="furniture1" />
+          <img src="assets/images/furniture2.jpg" alt="furniture2" />
+          <img src="assets/images/furniture3.jpg" alt="furniture3" />
+        </div>
+      </div>
+    </div>
+
+    <div class="best-seller-section">
+      <div class="best-seller-container">
+        <div class="best-seller-header">
+          <div class="best-seller-title">
+            <p class="s-font">OUR PRODUCTS</p>
+            <h3 class="m-font">This month's best seller</h3>
+          </div>
+          <button id="see-more-button">SEE MORE</button>
+        </div>
+        <div class="best-seller-image">
+          <img
+            class="carousel-image highlighted"
+            src="assets/images/furniture1.jpg"
+            alt=""
+          />
+          <img
+            class="carousel-image"
+            src="assets/images/furniture2.jpg"
+            alt=""
+          />
+          <img
+            class="carousel-image"
+            src="assets/images/furniture3.jpg"
+            alt=""
+          />
+          <img
+            class="carousel-image"
+            src="assets/images/furniture2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="arrow">
+          <img class="prev" src="assets/images/chevron-left.svg" alt="" />
+          <img class="next" src="assets/images/chevron-right.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="newsletter-section">
+      <p class="s-font">LIMITED DEALS</p>
+      <h4 id="newsletter-description">
+        Become a member and get 10% off of your first purchase
+      </h4>
+      <div class="email-textfield">
+        <input
+          type="text"
+          id="email-textbox"
+          name="email"
+          placeholder="Enter your email here"
+        />
+        <img id="mail-icon" src="assets/images/mail.svg" alt="mail-icon" />
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-details">
+        <div class="left-side-footer">
+          <div class="logo">
+            <img src="assets/images/logo.svg" alt="dekoor-logo" />
+          </div>
+          <p>
+            Dekoor is a furniture company created to fulfill the needs of family
+            with aesthetic feeling in their furniture. Always pay attention to
+            details and give clear communication for the customers. Priority of
+            our design is comfortability.
+          </p>
+          <p class="hidden">©Copyright 2022 Dekoor</p>
+        </div>
+        <div class="right-side-footer">
+          <div class="support">
+            <h5>Support</h5>
+            <p>FAQ</p>
+            <p>Shipping & Returns</p>
+            <p>Care guide</p>
+            <p>Redeem warranty</p>
+          </div>
+          <div class="social-media">
+            <h5>Social Media</h5>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>TikTok</p>
+          </div>
+          <div class="about-us">
+            <h5>About Us</h5>
+            <p>Our Story</p>
+            <p>Designer</p>
+            <p>Craftmanship</p>
+            <p>Sustainability</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="../index.js"></script>
+</html>
